@@ -17,16 +17,27 @@ Welcome to the Yahtzee game repository! This project includes both console and g
 To get started with the Yahtzee game, follow these steps:
 
 1. **Clone the Repository**:
-   git clone https://github.com/nadza/Yahtzee
+```
+git clone https://github.com/nadza/Yahtzee
+```
 
-2. **Running the Game**:
+3. **Running the Game**:
 
 - **Navigate to the `src/main` directory**:
-Open your file explorer or terminal and go to the `src/main` folder within the project.
-- **Locate the `Main.java` file**:
-In the `src/main` directory, you will find the `Main.java` file. This file serves as the entry point for the application.
-- **Run `Main.java`**:
-Execute `Main.java` to initiate the game. Upon running, you will be prompted to choose between Console or GUI modes.
+  
+  Open your file explorer or terminal and go to the root directory of the project.
+- **Compile the Project**:
+  
+  Use the following command to compile all Java files in the src directory and place the compiled classes in the bin directory:
+  ```
+  find src -name "*.java" -print | xargs javac -d bin
+  ```
+- **Run the Game**:
+  
+  After compilation, execute the following command to start the game:
+  ```
+  java -cp bin main.Main
+  ```
 
 Feel free to reach out if you have any questions or need further assistance.
 
