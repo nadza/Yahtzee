@@ -21,7 +21,7 @@ To get started with the Yahtzee game, follow these steps:
 git clone https://github.com/nadza/Yahtzee
 ```
 
-3. **Running the Game**:
+2. **Running the Game**:
 
 - **Navigate to the `src/main` directory**:
   
